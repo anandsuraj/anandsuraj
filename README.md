@@ -4,7 +4,7 @@
 [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/anandsuraj)
 [![Medium](https://img.shields.io/badge/-Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@anandsuraj)
 
-## AI/ML Engineering Leader & Technology Architect
+## AI/ML Engineering Leader & Technology Architect 
 
 Backend Engineer with 8 years of experience delivering scalable systems across diverse domains including storytelling, SaaS, e-commerce, fintech, and renewable energy. Co-architected Nojoto, a multilingual video storytelling platform, scaling it from 10K to 10M users and $2M in revenue while reducing infrastructure costs by 30%. Led a backend team of 8 engineers, driving system design, performance optimisation, and on-time delivery. Recently focused on AI-first solutions, building automation tools using GenAI and RAG. Solid background in distributed systems, cloud platforms, and data-heavy architectures.
 
@@ -106,7 +106,7 @@ Backend Engineer with 8 years of experience delivering scalable systems across d
 
 ### 🏢 Professional Experience
 
-#### Lead Engineer | Nojoto (NJT Network Pvt Ltd) | Feb 2019 - Present
+#### Lead Engineer | Nojoto (NJT NETWORK PVT. LTD.) | Feb 2019 - Present
 - Led technical architecture scaling from 10K to 10M+ users with 2M+ creators and $2M ARR
 - Built advanced AI/ML systems for content recommendations and moderation
 - Optimized cloud infrastructure reducing costs by 30% while improving performance by 60%
@@ -118,7 +118,7 @@ Backend Engineer with 8 years of experience delivering scalable systems across d
 - Managed payment integrations and AWS solutions improving client revenue by 25%
 - Provided technical consulting for 50+ clients designing responsive e-commerce solutions
 
-#### Software Engineer | Soreva Energy | Jan 2017 - Dec 2017
+#### Software Engineer | Soreva Energy PVT. LTD. | Jan 2017 - Dec 2017
 - Built AI-ready solar monitoring platform for government agencies (NISE & NIWE)
 - Developed real-time dashboards with automated data collection and analysis
 - Designed scalable architecture supporting future ML integration for predictive maintenance
