@@ -42,7 +42,7 @@ Backend Engineer with 8 years of experience delivering scalable systems across d
     </td>
     <td width="50%">
       <h3 align="center">
-        <a href="https://github.com/anandsuraj/Customer-Support-Voice-Agent-RAG">Customer Support Voice Agent</a>
+        <a href="https://github.com/anandsuraj/Customer-Support-Voice-Agent-RAG-">Customer Support Voice Agent</a>
       </h3>
       <div align="center">
         <p><strong>GPT-4o, Qdrant, TTS</strong>, Voice-enabled AI assistant using RAG to answer documentation queries with natural speech interaction.</p>
