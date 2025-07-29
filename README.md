@@ -127,8 +127,9 @@ Backend Engineer with 8 years of experience delivering scalable systems across d
 
 ### 📚 Education & Certifications
 
-- M.Tech (WILP), **Artificial Intelligence and Machine Learning** — BITS Pilani (Ongoing)
-- B.Tech, **Computer Science Engineering** — United Group of Institutions (2012-2016)
+- Master of Technology (Work Integrated Learning Programme), Artificial Intelligence and Machine Learning — BITS Pilani (Ongoing)
+
+- Bachelor of Technology, Computer Science and Engineering — United Group of Institutions (2012–2016)
 
 ---
 
