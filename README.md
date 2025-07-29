@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30px"> Suraj Anand
+# Hi <img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="24px"> I'm Suraj Anand
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anandsuraj/)
 [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/anandsuraj)
@@ -6,7 +6,7 @@
 
 ## 👨‍💻 AI/ML Engineering Leader & Technology Architect
 
-Engineering Leader with over eight years of experience guiding products from conception to large-scale deployment across diverse sectors including SaaS, e-commerce, and renewable energy. Proven track record of architecting and scaling backend infrastructure for a platform serving over 10 million users and generating $2M ARR. Expertise in enhancing system performance, optimizing cloud costs, and building modern, data-driven solutions using GenAI and RAG. Acknowledged twice with the Jeff Bezos Award for People & Leadership.
+Backend Engineer with 8 years of experience delivering scalable systems across diverse domains including storytelling, SaaS, e-commerce, fintech, and renewable energy. Co-architected Nojoto, a multilingual video storytelling platform, scaling it from 10K to 10M users and $2M in revenue while reducing infrastructure costs by 30%. Led a backend team of 8 engineers, driving system design, performance optimisation, and on-time delivery. Recently focused on AI-first solutions, building automation tools using GenAI and RAG. Solid background in distributed systems, cloud platforms, and data-heavy architectures.
 
 ---
 
@@ -37,7 +37,7 @@ Engineering Leader with over eight years of experience guiding products from con
         <a href="https://github.com/anandsuraj/langchain-rag-chatbot">RAG Chatbot</a>
       </h3>
       <div align="center">
-        <p><strong>LangChain, OpenAI, Vector DB</strong> — Production-ready RAG system for enterprise knowledge retrieval with customizable document ingestion pipeline and hybrid search.</p>
+        <p><strong>LangChain, OpenAI, Vector DB</strong>, Production-ready RAG system for enterprise knowledge retrieval with customizable document ingestion pipeline and hybrid search.</p>
       </div>
     </td>
     <td width="50%">
@@ -45,7 +45,7 @@ Engineering Leader with over eight years of experience guiding products from con
         <a href="https://github.com/anandsuraj/Customer-Support-Voice-Agent-RAG">Customer Support Voice Agent</a>
       </h3>
       <div align="center">
-        <p><strong>GPT-4o, Qdrant, TTS</strong> — Voice-enabled AI assistant using RAG to answer documentation queries with natural speech interaction.</p>
+        <p><strong>GPT-4o, Qdrant, TTS</strong>, Voice-enabled AI assistant using RAG to answer documentation queries with natural speech interaction.</p>
       </div>
     </td>
   </tr>
@@ -55,7 +55,7 @@ Engineering Leader with over eight years of experience guiding products from con
         <a href="https://github.com/anandsuraj/ai-stock-comparison-agent">AI Investment Agent</a>
       </h3>
       <div align="center">
-        <p><strong>OpenAI, Streamlit, yFinance</strong> — Financial analysis tool for comparing Indian stocks with real-time data, sector insights, and analyst recommendations.</p>
+        <p><strong>OpenAI, Streamlit, yFinance</strong>, Financial analysis tool for comparing Indian stocks with real-time data, sector insights, and analyst recommendations.</p>
       </div>
     </td>
     <td width="50%">
@@ -63,7 +63,7 @@ Engineering Leader with over eight years of experience guiding products from con
         <a href="https://github.com/anandsuraj/multi_agent_researcher">Multi Agent Researcher</a>
       </h3>
       <div align="center">
-        <p><strong>LangChain, Agent Framework, LLMs</strong> — Collaborative AI system for automated research and information synthesis from diverse sources.</p>
+        <p><strong>LangChain, Agent Framework, LLMs</strong>, Collaborative AI system for automated research and information synthesis from diverse sources.</p>
       </div>
     </td>
   </tr>
@@ -129,8 +129,6 @@ Engineering Leader with over eight years of experience guiding products from con
 
 - M.Tech (WILP), **Artificial Intelligence and Machine Learning** — BITS Pilani (Ongoing)
 - B.Tech, **Computer Science Engineering** — United Group of Institutions (2012-2016)
-- **Complete Guide to Elasticsearch** — Udemy (Feb 2024)
-- **AWS Concepts & Essentials** — Udemy (Jan 2019)
 
 ---
 
@@ -138,7 +136,8 @@ Engineering Leader with over eight years of experience guiding products from con
 
 - Email: [surya13493@gmail.com](mailto:surya13493@gmail.com)
 - LinkedIn: [linkedin.com/in/anandsuraj](https://www.linkedin.com/in/anandsuraj/)
-- Medium: ([https://medium.com/@surya13493](https://medium.com/@anandsuraj)) 
+- Medium: ([https://medium.com/@surya13493](https://medium.com/@anandsuraj))
+- Substack: ([https://medium.com/@anandsuraj](https://substack.com/@surajanand))
 - Location: Gurugram, India
 
 ---
