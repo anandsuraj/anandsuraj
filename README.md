@@ -4,13 +4,13 @@
 [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/anandsuraj)
 [![Medium](https://img.shields.io/badge/-Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@anandsuraj)
 
-## 👨‍💻 AI/ML Engineering Leader & Technology Architect
+## AI/ML Engineering Leader & Technology Architect
 
 Backend Engineer with 8 years of experience delivering scalable systems across diverse domains including storytelling, SaaS, e-commerce, fintech, and renewable energy. Co-architected Nojoto, a multilingual video storytelling platform, scaling it from 10K to 10M users and $2M in revenue while reducing infrastructure costs by 30%. Led a backend team of 8 engineers, driving system design, performance optimisation, and on-time delivery. Recently focused on AI-first solutions, building automation tools using GenAI and RAG. Solid background in distributed systems, cloud platforms, and data-heavy architectures.
 
 ---
 
-### 🚀 Expertise Areas
+### Expertise Areas
 
 <p align="center">
   <img src="https://img.shields.io/badge/AI%20Architecture-FF6F00?style=for-the-badge" alt="AI Architecture"/>
@@ -28,7 +28,7 @@ Backend Engineer with 8 years of experience delivering scalable systems across d
 
 ---
 
-### 🏆 Featured AI/ML Projects
+### Featured AI/ML Projects
 
 <table>
   <tr>
@@ -71,7 +71,7 @@ Backend Engineer with 8 years of experience delivering scalable systems across d
 
 ---
 
-### 🛠️ Technology Stack
+### Technology Stack
 
 #### Languages & Frameworks
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -125,7 +125,7 @@ Backend Engineer with 8 years of experience delivering scalable systems across d
 
 ---
 
-### 📚 Education & Certifications
+### Education & Certifications
 
 - Master of Technology (Work Integrated Learning Programme), Artificial Intelligence and Machine Learning — BITS Pilani (Ongoing)
 
@@ -133,7 +133,7 @@ Backend Engineer with 8 years of experience delivering scalable systems across d
 
 ---
 
-### 📫 Contact Me
+### Contact Me
 
 - Email: [surya13493@gmail.com](mailto:surya13493@gmail.com)
 - LinkedIn: [linkedin.com/in/anandsuraj](https://www.linkedin.com/in/anandsuraj/)
