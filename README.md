@@ -52,7 +52,7 @@ Backend Engineer with 8 years of experience delivering scalable systems across d
   <tr>
     <td width="50%">
       <h3 align="center">
-        <a href="https://github.com/anandsuraj/ai-stock-comparison-agent">AI Investment Agent</a>
+        <a href="https://github.com/anandsuraj/ai-stock-comparison-agent-">AI Investment Agent</a>
       </h3>
       <div align="center">
         <p><strong>OpenAI, Streamlit, yFinance</strong>, Financial analysis tool for comparing Indian stocks with real-time data, sector insights, and analyst recommendations.</p>
