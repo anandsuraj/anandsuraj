@@ -8,6 +8,20 @@
 
 Backend Engineer with 8 years of experience delivering scalable systems across diverse domains including storytelling, SaaS, e-commerce, fintech, and renewable energy. Co-architected Nojoto, a multilingual video storytelling platform, scaling it from 10K to 10M users and $2M in revenue while reducing infrastructure costs by 30%. Led a backend team of 8 engineers, driving system design, performance optimisation, and on-time delivery. Recently focused on AI-first solutions, building automation tools using GenAI and RAG. Solid background in distributed systems, cloud platforms, and data-heavy architectures.
 
+## Key Achievements
+🔹 Advised 50+ startups on MVP development, engineering team building, and go-to-market strategies, leading teams through technical planning, code reviews, and production rollouts.
+
+🔹 Co-architected Nojoto, scaling it to 10M+ users, 2M creators, ₹12Cr ARR, raising ₹26Cr funding, recognized by Google (#WeArePlay), MeitY's Top 100 Startups 2022, and YourStory Tech30.
+
+🔹 Built and architected innovative solar monitoring IoT software for NISE & NIWE, Ministry of New and Renewable Energy - a non-intrusive IoT system for real-time data capture, cloud processing, and automated fault detection, featured in IET Electronics Letters.
+
+📚 Research Paper: [ https://ietresearch.onlinelibrary.wiley.com/doi/epdf/10.1049/el.2017.0694 ]
+
+🔹 Pursuing a Master of Technology in Artificial Intelligence & Machine Learning from BITS Pilani (Distance Learning), combining academic insights with hands-on industry experience.
+
+🔹 Currently consulting & developing AI tools for SMEs, focused on automation, predictive analytics, and intelligent chat interfaces.
+
+
 ---
 
 ### Expertise Areas
