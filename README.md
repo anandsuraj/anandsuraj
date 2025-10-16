@@ -82,11 +82,17 @@ Backend Engineer with 8 years of experience delivering scalable systems across d
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 
 #### AI/ML Technologies
-![LangChain](https://img.shields.io/badge/LangChain-326ce5?style=flat-square&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
-![Vector DB](https://img.shields.io/badge/Vector_DB-000000?style=flat-square)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![Generative AI](https://img.shields.io/badge/Generative_AI-228B22?style=flat-square&logoColor=white)
+![NLP](https://img.shields.io/badge/NLP-4B0082?style=flat-square&logoColor=white)
 ![RAG](https://img.shields.io/badge/RAG_Systems-FF6F00?style=flat-square)
+![LangChain](https://img.shields.io/badge/LangChain-326ce5?style=flat-square&logoColor=white)
+![AI Agents](https://img.shields.io/badge/AI_Agents-FF4500?style=flat-square&logoColor=white)
+![Vector DB](https://img.shields.io/badge/Vector_DB-000000?style=flat-square)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![CrewAI](https://img.shields.io/badge/CrewAI-00C4B4?style=flat-square&logoColor=white)
+![Llama](https://img.shields.io/badge/Llama-3B5998?style=flat-square&logoColor=white)
 
 #### Databases & Storage
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
