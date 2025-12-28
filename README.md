@@ -6,7 +6,13 @@
 
 ## AI/ML Engineering Leader & Technology Architect 
 
-Backend Engineer with 8 years of experience delivering scalable systems across diverse domains including storytelling, SaaS, e-commerce, fintech, and renewable energy. Co-architected Nojoto, a multilingual video storytelling platform, scaling it from 10K to 10M users and $2M in revenue while reducing infrastructure costs by 30%. Led a backend team of 8 engineers, driving system design, performance optimisation, and on-time delivery. Recently focused on AI-first solutions, building automation tools using GenAI and RAG. Solid background in distributed systems, cloud platforms, and data-heavy architectures.
+Backend Engineer with 8 years of experience delivering scalable systems across storytelling, SaaS, e-commerce, fintech, and renewable energy. 
+
+Co-architected Nojoto, a multilingual video storytelling platform, scaling it from 10K to 10M users and $2M in revenue while reducing infrastructure costs by 30%. Built production Elasticsearch infrastructure handling 225M documents with sub-50ms latency, delivering 30× performance improvement and powering user and content discovery features. 
+
+Led a team of 8 engineers, optimizing systems that processed 200K+ daily messages and managed 50TB of media, driving system design, performance optimization, and on-time delivery. 
+
+Recently focused on AI-first solutions, building RAG systems with semantic search, LLMs, and GenAI automation tools. Strong background in distributed systems, cloud platforms, search infrastructure, and data-heavy architectures.
 
 ## Key Achievements
 🔹 Advised 50+ startups on MVP development, engineering team building, and go-to-market strategies, leading teams through technical planning, code reviews, and production rollouts.
