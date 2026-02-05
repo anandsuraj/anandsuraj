@@ -46,48 +46,63 @@ Recently focused on AI-first solutions, building RAG systems with semantic searc
   <img src="https://img.shields.io/badge/Technical%20Leadership-0078D7?style=for-the-badge" alt="Technical Leadership"/>
 </p>
 
----
-
-### Featured AI/ML Projects
-
 <table>
-  <tr>
-    <td width="50%">
-      <h3 align="center">
-        <a href="https://github.com/anandsuraj/langchain-rag-chatbot">RAG Chatbot</a>
-      </h3>
-      <div align="center">
-        <p><strong>LangChain, OpenAI, Vector DB</strong>, Production-ready RAG system for enterprise knowledge retrieval with customizable document ingestion pipeline and hybrid search.</p>
-      </div>
-    </td>
-    <td width="50%">
-      <h3 align="center">
-        <a href="https://github.com/anandsuraj/Customer-Support-Voice-Agent-RAG-">Customer Support Voice Agent</a>
-      </h3>
-      <div align="center">
-        <p><strong>GPT-4o, Qdrant, TTS</strong>, Voice-enabled AI assistant using RAG to answer documentation queries with natural speech interaction.</p>
-      </div>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3 align="center">
-        <a href="https://github.com/anandsuraj/ai-stock-comparison-agent-">AI Investment Agent</a>
-      </h3>
-      <div align="center">
-        <p><strong>OpenAI, Streamlit, yFinance</strong>, Financial analysis tool for comparing Indian stocks with real-time data, sector insights, and analyst recommendations.</p>
-      </div>
-    </td>
-    <td width="50%">
-      <h3 align="center">
-        <a href="https://github.com/anandsuraj/multi_agent_researcher">Multi Agent Researcher</a>
-      </h3>
-      <div align="center">
-        <p><strong>LangChain, Agent Framework, LLMs</strong>, Collaborative AI system for automated research and information synthesis from diverse sources.</p>
-      </div>
-    </td>
-  </tr>
+<tr>
+<td width="50%">
+<h3 align="center">
+<a href="https://github.com/anandsuraj/hybrid-rag-system-with-automated-evaluation">🆕 Hybrid RAG System</a>
+</h3>
+<div align="center">
+<p><strong>FAISS, BM25, Flan-T5, RRF</strong>, Advanced RAG pipeline combining dense + sparse retrieval with automated evaluation (MRR, NDCG, BERTScore) on 500 Wikipedia articles.</p>
+</div>
+</td>
+<td width="50%">
+<h3 align="center">
+<a href="https://github.com/anandsuraj/langchain-rag-chatbot">RAG Chatbot</a>
+</h3>
+<div align="center">
+<p><strong>LangChain, OpenAI, Vector DB</strong>, Production-ready RAG system for enterprise knowledge retrieval with customizable document ingestion pipeline and hybrid search.</p>
+</div>
+</td>
+</tr>
+<tr>
+<td width="50%">
+<h3 align="center">
+<a href="https://github.com/anandsuraj/Customer-Support-Voice-Agent-RAG-">Customer Support Voice Agent</a>
+</h3>
+<div align="center">
+<p><strong>GPT-4o, Qdrant, TTS</strong>, Voice-enabled AI assistant using RAG to answer documentation queries with natural speech interaction.</p>
+</div>
+</td>
+<td width="50%">
+<h3 align="center">
+<a href="https://github.com/anandsuraj/ai-stock-comparison-agent-">AI Investment Agent</a>
+</h3>
+<div align="center">
+<p><strong>OpenAI, Streamlit, yFinance</strong>, Financial analysis tool for comparing Indian stocks with real-time data, sector insights, and analyst recommendations.</p>
+</div>
+</td>
+</tr>
+<tr>
+<td width="50%">
+<h3 align="center">
+<a href="https://github.com/anandsuraj/multi_agent_researcher">Multi Agent Researcher</a>
+</h3>
+<div align="center">
+<p><strong>LangChain, Agent Framework, LLMs</strong>, Collaborative AI system for automated research and information synthesis from diverse sources.</p>
+</div>
+</td>
+<td width="50%">
+<h3 align="center">
+<a href="https://github.com/anandsuraj">More Projects →</a>
+</h3>
+<div align="center">
+<p><strong>Explore</strong> my full repository collection including IoT, e-commerce, and backend systems.</p>
+</div>
+</td>
+</tr>
 </table>
+
 
 ---
 
