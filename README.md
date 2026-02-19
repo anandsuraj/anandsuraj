@@ -173,13 +173,33 @@ Recently focused on AI-first solutions, building RAG systems with semantic searc
 - Bachelor of Technology, Computer Science and Engineering — United Group of Institutions (2012–2016)
 
 ---
+### 📝 Featured Articles
+
+#### Scale & System Design
+*   **[From MySQL Hell to Elasticsearch Heaven: How We Built Instagram-Like Search](https://surajanand.substack.com/p/from-mysql-hell-to-elasticsearch)** – A deep dive into scaling to 200M documents and 10M followers with sub-100ms search.
+*   **[Nojoto System Design: Crafting a Scalable Storytelling Platform](https://anandsuraj.medium.com/nojoto-system-design-crafting-a-scalable-storytelling-platform-75d2e7214e3e)** – Architecting a platform for millions of users across multiple media formats.
+*   **[Mastering Elasticsearch: Unleashing the Power of Search](https://anandsuraj.medium.com/mastering-elasticsearch-unleashing-the-power-of-search-f7e645f074db)** – Technical guide on implementing efficient search capabilities in data-driven worlds.
+*   **[Leveraging FFmpeg in Content-Based Platforms with Python](https://anandsuraj.medium.com/leveraging-ffmpeg-in-content-based-platforms-with-python-0cc5ada8cabd)** – A detailed technical guide on video/audio processing for modern platforms.
+
+#### AI & Emerging Tech
+*   **[AI Agent Deployment for Company-Wide Automation](https://surajanand.substack.com/p/ai-agent-deployment-for-company-wide)** – Strategies for building enterprise-grade AI agent systems for departmental orchestration.
+*   **[How to Stay Valuable as an Engineer in the AI Era](https://surajanand.substack.com/p/how-to-stay-valuable-as-an-engineer)** – Thought leadership on shifting focus from "just coding" to system reliability and crisis management.
+
+#### Python & Open Source
+*   **[Exploring the Top Django Projects on GitHub](https://anandsuraj.medium.com/exploring-the-top-django-projects-on-github-inspiration-for-every-developer-35020e1251d2)** – Curated inspiration for Python developers leveraging the Django framework.
+*   **[Connect PHP to Google BigQuery](https://anandsuraj.medium.com/connect-php-to-google-bigquery-8baa62f17f2e)** – Implementing cloud data warehouse integrations using Google Cloud libraries.
+
+#### 💡 Growth & Productivity
+*   **[Maximizing Your Weekend: How to Plan for Productivity and Enjoyment](https://anandsuraj.medium.com/maximizing-your-weekend-how-to-plan-for-productivity-and-enjoyment-f7f1cdd166f7)** – Frameworks for maintaining high performance and mental clarity outside of work.
+
+---
 
 ### Contact Me
 
 - Email: [surya13493@gmail.com](mailto:surya13493@gmail.com)
 - LinkedIn: [linkedin.com/in/anandsuraj](https://www.linkedin.com/in/anandsuraj/)
 - Medium: ([https://medium.com/@surya13493](https://medium.com/@anandsuraj))
-- Substack: ([https://medium.com/@anandsuraj](https://substack.com/@surajanand))
+- Substack: ([[https://medium.com/@anandsuraj]](https://substack.com/@surajanand)
 - Location: Gurugram, India
 
 ---
