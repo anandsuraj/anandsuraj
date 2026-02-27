@@ -64,8 +64,7 @@ Pursuing an M.Tech in Artificial Intelligence & Machine Learning at BITS Pilani,
 | [**AI Professional Headshot Generator**](https://github.com/anandsuraj/ai-professional-headshot-generator) | Fine-tuned image generation model for professional portraits. [Live Demo](https://ai-professional-headshot-generator-five.vercel.app) | Stable Diffusion · LoRA · Vercel |
 | [**AI Stock Comparison Agent**](https://github.com/anandsuraj/ai-stock-comparison-agent-) | Financial analysis tool for Indian stocks with real-time data, sector insights, and analyst recommendations. | OpenAI · yFinance · Streamlit |
 | [**AI Cold Email Generator**](https://github.com/anandsuraj/AI-Powered-Cold-Email-Generator-for-Job-Applica...) | LLM-based tool for generating highly personalized outreach emails for job applications. | LLMs · LangChain · Python |
-| [**AI Content Creation Reels**](https://github.com/anandsuraj/ai-content-creation-reels) | Automated short-form video content generation using Generative AI. | GenAI · FFmpeg · Python |
-| [**AI Wedding Album**](https://ai-wedding-album.vercel.app/) | Smart AI-powered photo management and generation platform for weddings. | GenAI · Vercel · Image Models |
+| [**AI Wedding Album**](https://ai-wedding-album.vercel.app/) | Smart AI-powered photo management and generation platform for weddings. [Live Demo](https://ai-wedding-album.vercel.app/) | GenAI · Vercel · Image Models |
 
 ---
 
