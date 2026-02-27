@@ -23,7 +23,6 @@
 ![GenAI Solutions](https://img.shields.io/badge/GenAI_Solutions-0F9D58?style=flat-square)
 ![LLM Applications](https://img.shields.io/badge/LLM_Applications-DB4437?style=flat-square)
 ![Vector Databases](https://img.shields.io/badge/Vector_Databases-764ABC?style=flat-square)
-![Distributed Systems](https://img.shields.io/badge/Distributed_Systems-2C3E50?style=flat-square)
 ![Search Infrastructure](https://img.shields.io/badge/Search_Infrastructure-005571?style=flat-square)
 ![MLOps](https://img.shields.io/badge/MLOps-FF6F00?style=flat-square)
 ![Technical Leadership](https://img.shields.io/badge/Technical_Leadership-0078D7?style=flat-square)
