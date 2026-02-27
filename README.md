@@ -104,17 +104,6 @@ Non-intrusive IoT system developed for NISE & NIWE (Ministry of New and Renewabl
 
 ---
 
-## Open Source Contributions
-
-Recent contributions to [**openclaw/openclaw**](https://github.com/openclaw/openclaw):
-
-- **fix(cron):** Corrected next execution time calculation after gateway restart *(Feb 22)*
-- **fix:** Reduced chat history render limit to improve performance *(Feb 19)*
-- **fix:** Resolved webchat message visibility bug with optimistic updates *(Feb 13)*
-- **fix(compaction):** Added fallback for undefined `ctx.model` during compaction *(Feb 9)*
-
----
-
 ## Professional Experience
 
 ### Lead Engineer · Nojoto · Feb 2019 – Present
