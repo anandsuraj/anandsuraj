@@ -16,6 +16,21 @@
 
 ---
 
+## Expertise Areas
+
+![AI Architecture](https://img.shields.io/badge/AI_Architecture-FF6F00?style=flat-square)
+![RAG Systems](https://img.shields.io/badge/RAG_Systems-4285F4?style=flat-square)
+![GenAI Solutions](https://img.shields.io/badge/GenAI_Solutions-0F9D58?style=flat-square)
+![LLM Applications](https://img.shields.io/badge/LLM_Applications-DB4437?style=flat-square)
+![Vector Databases](https://img.shields.io/badge/Vector_Databases-764ABC?style=flat-square)
+![Distributed Systems](https://img.shields.io/badge/Distributed_Systems-2C3E50?style=flat-square)
+![Search Infrastructure](https://img.shields.io/badge/Search_Infrastructure-005571?style=flat-square)
+![MLOps](https://img.shields.io/badge/MLOps-FF6F00?style=flat-square)
+![Technical Leadership](https://img.shields.io/badge/Technical_Leadership-0078D7?style=flat-square)
+![Cloud Architecture](https://img.shields.io/badge/Cloud_Architecture-232F3E?style=flat-square)
+
+---
+
 ## About
 
 Lead Backend Engineer with 8+ years of experience delivering production systems across storytelling, SaaS, fintech, e-commerce, and renewable energy. Currently specializing in GenAI-first architectures: RAG pipelines, multi-agent systems, and LLM-powered applications at scale.
