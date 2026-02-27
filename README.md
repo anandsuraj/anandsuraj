@@ -94,12 +94,10 @@ Non-intrusive IoT system developed for NISE & NIWE (Ministry of New and Renewabl
 
 Recent contributions to [**openclaw/openclaw**](https://github.com/openclaw/openclaw):
 
-| Contribution | Description | Date |
-|---|---|---|
-| [**fix(cron): correct next execution time calculation after gateway restart**](https://github.com/openclaw/openclaw) | Fixed incorrect next execution time for periodic cron jobs after gateway restart | Feb 22, 2025 |
-| [**fix: reduce chat history render limit to improve performance**](https://github.com/openclaw/openclaw) | Resolved performance regression caused by rendering oversized chat histories. | Feb 19, 2025 |
-| [**fix: webchat message visibility with optimistic updates**](https://github.com/openclaw/openclaw) | Fixed message display bug caused by optimistic update race conditions in webchat. | Feb 13, 2025 |
-| [**fix(compaction): add fallback for undefined ctx.model (#12016)**](https://github.com/openclaw/openclaw) | Added safe fallback handling when ctx.model is undefined during compaction. | Feb 9, 2025 |
+- **fix(cron):** Corrected next execution time calculation after gateway restart *(Feb 22)*
+- **fix:** Reduced chat history render limit to improve performance *(Feb 19)*
+- **fix:** Resolved webchat message visibility bug with optimistic updates *(Feb 13)*
+- **fix(compaction):** Added fallback for undefined `ctx.model` during compaction *(Feb 9)*
 
 ---
 
@@ -196,10 +194,6 @@ Recent contributions to [**openclaw/openclaw**](https://github.com/openclaw/open
 #### AI & Emerging Technology
 - [**AI Agent Deployment for Company-Wide Automation**](https://surajanand.substack.com/p/ai-agent-deployment-for-company-wide) · Building enterprise-grade AI agent systems for departmental orchestration
 - [**How to Stay Valuable as an Engineer in the AI Era**](https://surajanand.substack.com/p/how-to-stay-valuable-as-an-engineer) · Shifting focus from code output to system reliability and engineering judgment
-
-#### Python & Open Source
-- [**Exploring the Top Django Projects on GitHub**](https://anandsuraj.medium.com/exploring-the-top-django-projects-on-github-inspiration-for-every-developer-35020e1251d2) · Curated inspiration for Python developers leveraging Django
-- [**Connect PHP to Google BigQuery**](https://anandsuraj.medium.com/connect-php-to-google-bigquery-8baa62f17f2e) · Cloud data warehouse integrations using Google Cloud libraries
 
 ---
 
