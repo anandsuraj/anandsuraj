@@ -32,7 +32,7 @@
 
 ## About
 
-Lead Backend Engineer with 8+ years of experience delivering production systems across storytelling, SaaS, fintech, e-commerce, and renewable energy. Currently specializing in GenAI-first architectures: RAG pipelines, multi-agent systems, and LLM-powered applications at scale.
+Lead Backend Engineer with 8+ years of experience delivering production systems across media and entertainment(UGC), SaaS, fintech, e-commerce, and renewable energy. Currently specializing in GenAI-first architectures: RAG pipelines, multi-agent systems, and LLM-powered applications at scale.
 
 Co-architected Nojoto, India's leading multilingual storytelling platform, scaling it from 10K to 10M+ users and Rs 12Cr ARR. Built Elasticsearch infrastructure handling 225M documents at sub-50ms latency, a 30x performance improvement. Led a team of 8 engineers managing 200K+ daily messages and 50TB of media.
 
