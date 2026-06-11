@@ -10,7 +10,7 @@
 [![Medium](https://img.shields.io/badge/Medium-000000?style=flat-square&logo=medium&logoColor=white)](https://medium.com/@anandsuraj)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:surya13493@gmail.com)
 
-**8+ years** building high-scale distributed systems · **2x Jeff Bezos Award Winner** · **Published IET Researcher** · **M.Tech AI/ML @ BITS Pilani**
+**9+ years** building high-scale distributed systems · **2x Jeff Bezos Award Winner** · **Published IET Researcher** · **M.Tech AI/ML @ BITS Pilani**
 
 </div>
 
@@ -32,9 +32,9 @@
 
 ## About
 
-Lead Backend Engineer with 8+ years of experience delivering production systems across media and entertainment(UGC), SaaS, fintech, e-commerce, and renewable energy. Currently specializing in GenAI-first architectures: RAG pipelines, multi-agent systems, and LLM-powered applications at scale.
+Lead Backend Engineer with 9+ years of experience delivering production systems across media and entertainment(UGC), SaaS, fintech, e-commerce, and renewable energy. Currently specializing in GenAI-first architectures: RAG pipelines, multi-agent systems, and LLM-powered applications at scale.
 
-Co-architected Nojoto, India's leading multilingual storytelling platform, scaling it from 10K to 10M+ users and Rs 12Cr ARR. Built Elasticsearch infrastructure handling 225M documents at sub-50ms latency, a 30x performance improvement. Led a team of 8 engineers managing 200K+ daily messages and 50TB of media.
+Co-architected Nojoto, India's leading multilingual storytelling platform, scaling it from 10K to 20M+ users and Rs 12Cr ARR. Built Elasticsearch infrastructure handling 225M documents at sub-50ms latency, a 30x performance improvement. Led a team of 8 engineers managing 200K+ daily messages and 50TB of media.
 
 Pursuing an M.Tech in Artificial Intelligence & Machine Learning at BITS Pilani, bridging academic rigor with hands-on production experience.
 
