@@ -70,18 +70,16 @@ Two production-grade GenAI systems architected end-to-end as an M.Tech dissertat
 
 ### NyayaBot — Multilingual Multimodal Legal RAG with Verifiable Citations
 
-A citizen files a complaint in any of 8 Indian languages — typed, spoken, photographed, or recorded — and receives a plain-language mediation summary where every legal statement is traced to a real statutory passage. The system never presents a claim as law unless an NLI model has confirmed entailment against the exact source text. Built as an M.Tech dissertation (BITS Pilani) with two original research contributions.
+A citizen describes a dispute in any of 8 Indian languages — typed, spoken, photographed, or recorded — and gets a plain-language mediation summary where every legal claim is verified against its cited statutory passage. Built as an M.Tech dissertation (BITS Pilani) with two original contributions.
 
 | Contribution | What it solves |
 |---|---|
-| **SF-MR** (Structured Fact-Set Mediated Retrieval) | Bridges the vocabulary gap between informal citizen complaints and formal statutory language — retrieves using a typed fact set rather than raw query text |
-| **Claim-level NLI Verifier** | Tests every generated citation as an entailment problem against the exact passage it cites; flags or re-drafts failing claims across up to 3 revision cycles before anything reaches the user |
+| **SF-MR** (Structured Fact-Set Mediated Retrieval) | Retrieves with a typed fact set rather than raw query text, bridging informal language and formal statutes |
+| **Claim-level NLI Verifier** | Tests each citation as an entailment problem; re-drafts failures up to 3 cycles — nothing reaches the user unless it passes |
 
-**Measured results:** hallucination rate reduced from 92.5% → 19.2% (73.3pp reduction); retrieval P@5 improved 9.0pp over dense baseline (Wilcoxon p = 1.7e−04); classifier macro-F1 of 1.00; evaluated across 100 kappa-validated scenarios (Cohen's κ = 0.771).
+**Results:** hallucination rate 92.5% → 19.2% (73.3pp); retrieval P@5 +9.0pp over dense baseline (p = 1.7e−04); macro-F1 1.00; κ = 0.771 across 100 validated scenarios.
 
-**Stack:** LangGraph (5-agent StateGraph) · Whisper ASR · EasyOCR · MuRIL · `mDeBERTa-v3` NLI · ChromaDB · `paraphrase-multilingual-mpnet-base-v2` · GPT-4o-mini · FastAPI · Next.js
-
-#### NyayaBot in action
+**Stack:** LangGraph · Whisper ASR · EasyOCR · MuRIL · `mDeBERTa-v3` NLI · ChromaDB · GPT-4o-mini · FastAPI · Next.js
 
 <table>
 <tr>
@@ -89,49 +87,37 @@ A citizen files a complaint in any of 8 Indian languages — typed, spoken, phot
 
 **Dispute intake — 8 languages, 4 input modes**
 
-![NyayaBot dispute intake screen showing the consumer complaint form, language selector, and real-time fact extraction](assets/nyayabot/nyayabot-screen-intake.png)
-
-A consumer describes a faulty Whirlpool refrigerator purchase. The system extracts a structured fact set and confirms 5/5 citations verified with 0 revision cycles needed.
+![NyayaBot dispute intake and fact extraction](assets/nyayabot/s01-landing.png)
 
 </td>
 <td width="50%">
 
-**Every citation, verified — 5 of 5 confirmed**
+**Every citation verified — 5/5 confirmed**
 
-![NyayaBot citation verification screen showing all five legal claims marked CONFIRMED with entailment score 0.99](assets/nyayabot/nyayabot-screen-citations.png)
-
-Each legal claim is tested as an entailment problem against its cited statutory passage. Nothing reaches the user unless it passes. Unconfirmed claims are shown as FLAGGED, never silently dropped.
+![NyayaBot citation verification with entailment scores](assets/nyayabot/s09-factset.png)
 
 </td>
 </tr>
 </table>
 
-#### Sample output: Pre-litigation brief (NB-20260826-1QES)
-
-The downloadable brief hands the citizen everything needed to approach the District Consumer Commission — structured facts, governing sections, and a confidence-scored verdict on each claim.
-
 <details>
-<summary><strong>View brief summary</strong></summary>
+<summary><strong>Sample output: Pre-litigation brief NB-20260826-1QES</strong></summary>
 
 **Dispute:** Consumer complaint · Rs 90,000 · Complainant vs Sharma Electronics  
-**Relief sought:** Replacement or full refund with compensation for spoilt food
+**Relief:** Replacement or full refund with compensation for spoilt food  
+**Facts:** Whirlpool refrigerator (invoice SE/2025/1187) purchased 12 March 2025; cooling failed and freezer leaked within two months; two technician visits failed; store declined replacement citing usage issue despite active warranty.
 
-**Facts:** Whirlpool double-door refrigerator (invoice SE/2025/1187) purchased 12 March 2025. Cooling stopped and freezer leaked water within two months. Two technician visits failed to produce a permanent fix. Store declined replacement, citing usage issue, despite the unit being within its one-year warranty.
-
-**Legal conclusions confirmed (5/5 · entailment score 0.99 each):**
-
-| # | Claim | Source |
+| # | Confirmed claim (entailment 0.99) | Source |
 |---|---|---|
-| 1 | Supply of a defective appliance that repeatedly failed within the warranty period, where the seller declined replacement, was held to be a deficiency | Consumer Forum Order · District Commission |
-| 2 | Deficiency in service was made out where a home appliance developed the same fault repeatedly within warranty and the authorised service centre failed to effect a permanent repair | Consumer Forum Order · District Commission |
-| 3 | Non-delivery of a paid-for product within the promised period, followed by refusal to refund, constitutes deficiency in service under section 2(11) | Consumer Forum Order · District Commission |
-| 4 | False advertisement of a product feature that the goods did not possess was held to be an unfair trade practice under section 2(47) | Consumer Forum Order · State Commission |
-| 5 | Charging a price higher than the printed maximum retail price was held to be an unfair trade practice | Consumer Forum Order · State Commission |
+| 1 | Defective appliance repeatedly failing within warranty, seller declining replacement = deficiency | District Commission |
+| 2 | Same fault recurring within warranty, service centre failing permanent repair = deficiency in service | District Commission |
+| 3 | Refusal to refund a paid product = deficiency under s.2(11) | District Commission |
+| 4 | Advertising a feature the product lacks = unfair trade practice under s.2(47) | State Commission |
+| 5 | Charging above printed MRP = unfair trade practice | State Commission |
 
-**Where to file:** District Consumer Disputes Redressal Commission via the [e-Jagriti portal](https://edaakhil.nic.in)  
-**Verification:** 5/5 citations confirmed · 100% claims verified · 0 revision cycles used
+**5/5 citations confirmed · 0 revision cycles · File at:** [e-Jagriti portal](https://edaakhil.nic.in)
 
-> *This is pre-litigation information support, not legal advice. Consult a licensed advocate before acting.*
+> *Pre-litigation information only — not legal advice. Consult a licensed advocate before acting.*
 
 </details>
 
