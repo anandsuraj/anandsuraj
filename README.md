@@ -55,6 +55,49 @@ Pursuing an M.Tech in Artificial Intelligence & Machine Learning at BITS Pilani,
 
 ---
 
+## Enterprise AI Platforms
+
+> Two production-grade, enterprise-scale GenAI systems architected end-to-end: multi-agent RAG pipelines, hallucination-control layers, and human-in-the-loop governance. Repos are private; architecture, results, and demo walkthroughs available on request.
+
+![Multi-Agent Systems](https://img.shields.io/badge/Multi--Agent_Systems-FF4500?style=flat-square)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square)
+![Hallucination Control](https://img.shields.io/badge/Hallucination_Control-B71C1C?style=flat-square)
+![Human-in-the-Loop](https://img.shields.io/badge/Human--in--the--Loop-0F9D58?style=flat-square)
+![pgvector](https://img.shields.io/badge/pgvector-336791?style=flat-square&logo=postgresql&logoColor=white)
+
+### NyayaBot — Multilingual Multimodal Legal RAG with Verifiable Citations
+
+A citizen's complaint, written, spoken, photographed, or recorded in any of 8 Indian languages, becomes a plain-language mediation summary where every legal statement is backed by a real statutory passage. Built as an M.Tech dissertation (BITS Pilani) with two original contributions rather than a wrapper around off-the-shelf RAG.
+
+| Contribution | What it solves |
+|---|---|
+| **SF-MR** (Structured Fact-Set Mediated Retrieval) | Bridges the vocabulary gap between informal citizen complaints and formal statutory language by retrieving with a typed fact set instead of raw text |
+| **Claim-level NLI Verifier** | Checks every citation against its cited passage with an entailment model and re-drafts flagged claims, up to 3 revision cycles, to eliminate hallucinated citations |
+
+**Measured results:** hallucination rate reduced from 92.5% to 19.2% (73.3pp reduction) via the verifier; retrieval precision (P@5) improved 9.0pp over dense retrieval baseline (Wilcoxon p = 1.7e-04); classifier macro-F1 of 1.00; evaluated across 100 manually authored, kappa-validated scenarios (Cohen's Kappa 0.771).
+
+**Stack:** LangGraph (5-agent StateGraph) · Whisper ASR · EasyOCR · MuRIL · `mDeBERTa-v3` NLI · ChromaDB · `paraphrase-multilingual-mpnet-base-v2` · GPT-4o-mini · FastAPI · Next.js
+
+---
+
+### TransitionIQ — AI-Powered Climate Transition Risk Intelligence Platform
+
+An enterprise SaaS platform that automates climate transition risk assessment for banks, asset managers, and sustainability consultancies preparing TCFD, ISSB, CSRD, and SEC climate disclosures. Ingests unstructured ESG sources (regulatory texts, filings, IEA scenarios) and produces standardized, audit-ready, evidence-mapped risk ratings, replacing black-box ESG scores with page-level source evidence.
+
+| Layer | Role |
+|---|---|
+| Retrieval | Tenant-scoped semantic search over pgvector embeddings |
+| Analyst LLM | Scores risk against a defined rubric plus house-methodology calibration notes |
+| Grounding check | Deterministic, per-citation verification before anything reaches a human |
+| Critic LLM | Independent re-score pass, separate from the analyst model |
+| Human review | Experts approve or override; overrides become calibration notes that tune future runs |
+
+**Enterprise foundations:** multi-tenant isolation, JWT auth with RBAC, audit logging, Prometheus monitoring, structured JSON logging, provider-agnostic LLM abstraction (Gemini / OpenAI / offline mock).
+
+**Stack:** FastAPI (async Python) · PostgreSQL 16 + pgvector · Next.js + Tailwind · Google Gemini / OpenAI · Docker Compose → Google Cloud Run
+
+---
+
 ## RAG & GenAI Portfolio
 
 > Production-grade Retrieval Augmented Generation systems and Generative AI applications.
