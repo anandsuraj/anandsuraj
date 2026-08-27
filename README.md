@@ -100,26 +100,7 @@ A citizen describes a dispute in any of 8 Indian languages — typed, spoken, ph
 </tr>
 </table>
 
-<details>
-<summary><strong>Sample output: Pre-litigation brief NB-20260826-1QES</strong></summary>
-
-**Dispute:** Consumer complaint · Rs 90,000 · Complainant vs Sharma Electronics  
-**Relief:** Replacement or full refund with compensation for spoilt food  
-**Facts:** Whirlpool refrigerator (invoice SE/2025/1187) purchased 12 March 2025; cooling failed and freezer leaked within two months; two technician visits failed; store declined replacement citing usage issue despite active warranty.
-
-| # | Confirmed claim (entailment 0.99) | Source |
-|---|---|---|
-| 1 | Defective appliance repeatedly failing within warranty, seller declining replacement = deficiency | District Commission |
-| 2 | Same fault recurring within warranty, service centre failing permanent repair = deficiency in service | District Commission |
-| 3 | Refusal to refund a paid product = deficiency under s.2(11) | District Commission |
-| 4 | Advertising a feature the product lacks = unfair trade practice under s.2(47) | State Commission |
-| 5 | Charging above printed MRP = unfair trade practice | State Commission |
-
-**5/5 citations confirmed · 0 revision cycles · File at:** [e-Jagriti portal](https://edaakhil.nic.in)
-
-> *Pre-litigation information only — not legal advice. Consult a licensed advocate before acting.*
-
-</details>
+📄 [Sample pre-litigation brief (PDF)](assets/nyayabot/NyayaBot-brief-consumer-2026-08-26%20(1).pdf)
 
 ---
 
