@@ -68,16 +68,27 @@ Two production-grade GenAI systems architected end-to-end as an M.Tech dissertat
 ![Multimodal](https://img.shields.io/badge/Multimodal-00897B?style=flat-square)
 ![8 Indian Languages](https://img.shields.io/badge/8_Indian_Languages-FF6F00?style=flat-square)
 
-### NyayaBot — Multilingual Multimodal Legal RAG with Verifiable Citations
+### NyayaBot — Multilingual Legal Assistant with Verified Citations
 
-A citizen describes a dispute in any of 8 Indian languages — typed, spoken, photographed, or recorded — and gets a plain-language mediation summary where every legal claim is verified against its cited statutory passage. Built as an M.Tech dissertation (BITS Pilani) with two original contributions.
+NyayaBot takes a citizen's complaint — written, spoken, photographed, or recorded — and returns a plain-language mediation summary where every legal statement is backed by a real statutory passage. It solves two problems: the vocabulary gap between informal complaints and formal statutes, and citation hallucination in generated legal summaries.
 
-| Contribution | What it solves |
+**Supported categories**
+
+| Category | Example phrase | Governing Act |
+|---|---|---|
+| Consumer | "refund nahi mila", "phone kharab nikla" | Consumer Protection Act 2019 |
+| Rental & Deposit | "deposit wapas nahi diya" | Transfer of Property Act 1882 |
+| MSME Payment | "payment nahi aaya, 45 din ho gaye" | MSMED Act 2006, §15–16 |
+| Maintenance | "kharcha nahi de rahe" | Hindu Marriage Act 1955, CrPC §125 |
+
+Works in 8 Indian languages across 4 input modes (type, speak, photo, video). Built as an M.Tech dissertation (BITS Pilani) with two original research contributions.
+
+| Contribution | What it does |
 |---|---|
-| **SF-MR** (Structured Fact-Set Mediated Retrieval) | Retrieves with a typed fact set rather than raw query text, bridging informal language and formal statutes |
-| **Claim-level NLI Verifier** | Tests each citation as an entailment problem; re-drafts failures up to 3 cycles — nothing reaches the user unless it passes |
+| **SF-MR** (Structured Fact-Set Mediated Retrieval) | Converts the informal complaint into a typed fact set before retrieval — so the system searches the way a lawyer would phrase it, not the way a citizen does |
+| **Claim-level NLI Verifier** | Every generated legal claim is tested against the exact statutory passage it cites; anything that fails is rewritten and re-tested up to 3 times before the user sees it |
 
-**Results:** hallucination rate 92.5% → 19.2% (73.3pp); retrieval P@5 +9.0pp over dense baseline (p = 1.7e−04); macro-F1 1.00; κ = 0.771 across 100 validated scenarios.
+**Results:** hallucination rate 92.5% → 19.2% (73.3pp drop); retrieval P@5 +9.0pp over dense baseline (p = 1.7e−04); macro-F1 1.00; κ = 0.771 across 100 validated scenarios.
 
 **Stack:** LangGraph · Whisper ASR · EasyOCR · MuRIL · `mDeBERTa-v3` NLI · ChromaDB · GPT-4o-mini · FastAPI · Next.js
 
