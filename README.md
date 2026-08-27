@@ -57,26 +57,83 @@ Pursuing an M.Tech in Artificial Intelligence & Machine Learning at BITS Pilani,
 
 ## Enterprise AI Platforms
 
-> Two production-grade, enterprise-scale GenAI systems architected end-to-end: multi-agent RAG pipelines, hallucination-control layers, and human-in-the-loop governance. Repos are private; architecture, results, and demo walkthroughs available on request.
+Two production-grade GenAI systems architected end-to-end as an M.Tech dissertation at BITS Pilani — not demos or wrappers around off-the-shelf RAG. Each addresses a real problem: hallucinated legal citations in citizen-facing tools, and unverifiable black-box ESG scores in climate finance. Both implement multi-agent pipelines with hallucination-control layers, citation-level grounding verification, and human-in-the-loop governance. Repos are private; architecture deep-dives, measured results, and live walkthroughs available on request.
 
 ![Multi-Agent Systems](https://img.shields.io/badge/Multi--Agent_Systems-FF4500?style=flat-square)
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square)
 ![Hallucination Control](https://img.shields.io/badge/Hallucination_Control-B71C1C?style=flat-square)
 ![Human-in-the-Loop](https://img.shields.io/badge/Human--in--the--Loop-0F9D58?style=flat-square)
+![NLI Verification](https://img.shields.io/badge/NLI_Verification-6A1B9A?style=flat-square)
 ![pgvector](https://img.shields.io/badge/pgvector-336791?style=flat-square&logo=postgresql&logoColor=white)
+![Multimodal](https://img.shields.io/badge/Multimodal-00897B?style=flat-square)
+![8 Indian Languages](https://img.shields.io/badge/8_Indian_Languages-FF6F00?style=flat-square)
 
 ### NyayaBot — Multilingual Multimodal Legal RAG with Verifiable Citations
 
-A citizen's complaint, written, spoken, photographed, or recorded in any of 8 Indian languages, becomes a plain-language mediation summary where every legal statement is backed by a real statutory passage. Built as an M.Tech dissertation (BITS Pilani) with two original contributions rather than a wrapper around off-the-shelf RAG.
+A citizen files a complaint in any of 8 Indian languages — typed, spoken, photographed, or recorded — and receives a plain-language mediation summary where every legal statement is traced to a real statutory passage. The system never presents a claim as law unless an NLI model has confirmed entailment against the exact source text. Built as an M.Tech dissertation (BITS Pilani) with two original research contributions.
 
 | Contribution | What it solves |
 |---|---|
-| **SF-MR** (Structured Fact-Set Mediated Retrieval) | Bridges the vocabulary gap between informal citizen complaints and formal statutory language by retrieving with a typed fact set instead of raw text |
-| **Claim-level NLI Verifier** | Checks every citation against its cited passage with an entailment model and re-drafts flagged claims, up to 3 revision cycles, to eliminate hallucinated citations |
+| **SF-MR** (Structured Fact-Set Mediated Retrieval) | Bridges the vocabulary gap between informal citizen complaints and formal statutory language — retrieves using a typed fact set rather than raw query text |
+| **Claim-level NLI Verifier** | Tests every generated citation as an entailment problem against the exact passage it cites; flags or re-drafts failing claims across up to 3 revision cycles before anything reaches the user |
 
-**Measured results:** hallucination rate reduced from 92.5% to 19.2% (73.3pp reduction) via the verifier; retrieval precision (P@5) improved 9.0pp over dense retrieval baseline (Wilcoxon p = 1.7e-04); classifier macro-F1 of 1.00; evaluated across 100 manually authored, kappa-validated scenarios (Cohen's Kappa 0.771).
+**Measured results:** hallucination rate reduced from 92.5% → 19.2% (73.3pp reduction); retrieval P@5 improved 9.0pp over dense baseline (Wilcoxon p = 1.7e−04); classifier macro-F1 of 1.00; evaluated across 100 kappa-validated scenarios (Cohen's κ = 0.771).
 
 **Stack:** LangGraph (5-agent StateGraph) · Whisper ASR · EasyOCR · MuRIL · `mDeBERTa-v3` NLI · ChromaDB · `paraphrase-multilingual-mpnet-base-v2` · GPT-4o-mini · FastAPI · Next.js
+
+#### NyayaBot in action
+
+<table>
+<tr>
+<td width="50%">
+
+**Dispute intake — 8 languages, 4 input modes**
+
+![NyayaBot dispute intake screen showing the consumer complaint form, language selector, and real-time fact extraction](assets/nyayabot/nyayabot-screen-intake.png)
+
+A consumer describes a faulty Whirlpool refrigerator purchase. The system extracts a structured fact set and confirms 5/5 citations verified with 0 revision cycles needed.
+
+</td>
+<td width="50%">
+
+**Every citation, verified — 5 of 5 confirmed**
+
+![NyayaBot citation verification screen showing all five legal claims marked CONFIRMED with entailment score 0.99](assets/nyayabot/nyayabot-screen-citations.png)
+
+Each legal claim is tested as an entailment problem against its cited statutory passage. Nothing reaches the user unless it passes. Unconfirmed claims are shown as FLAGGED, never silently dropped.
+
+</td>
+</tr>
+</table>
+
+#### Sample output: Pre-litigation brief (NB-20260826-1QES)
+
+The downloadable brief hands the citizen everything needed to approach the District Consumer Commission — structured facts, governing sections, and a confidence-scored verdict on each claim.
+
+<details>
+<summary><strong>View brief summary</strong></summary>
+
+**Dispute:** Consumer complaint · Rs 90,000 · Complainant vs Sharma Electronics  
+**Relief sought:** Replacement or full refund with compensation for spoilt food
+
+**Facts:** Whirlpool double-door refrigerator (invoice SE/2025/1187) purchased 12 March 2025. Cooling stopped and freezer leaked water within two months. Two technician visits failed to produce a permanent fix. Store declined replacement, citing usage issue, despite the unit being within its one-year warranty.
+
+**Legal conclusions confirmed (5/5 · entailment score 0.99 each):**
+
+| # | Claim | Source |
+|---|---|---|
+| 1 | Supply of a defective appliance that repeatedly failed within the warranty period, where the seller declined replacement, was held to be a deficiency | Consumer Forum Order · District Commission |
+| 2 | Deficiency in service was made out where a home appliance developed the same fault repeatedly within warranty and the authorised service centre failed to effect a permanent repair | Consumer Forum Order · District Commission |
+| 3 | Non-delivery of a paid-for product within the promised period, followed by refusal to refund, constitutes deficiency in service under section 2(11) | Consumer Forum Order · District Commission |
+| 4 | False advertisement of a product feature that the goods did not possess was held to be an unfair trade practice under section 2(47) | Consumer Forum Order · State Commission |
+| 5 | Charging a price higher than the printed maximum retail price was held to be an unfair trade practice | Consumer Forum Order · State Commission |
+
+**Where to file:** District Consumer Disputes Redressal Commission via the [e-Jagriti portal](https://edaakhil.nic.in)  
+**Verification:** 5/5 citations confirmed · 100% claims verified · 0 revision cycles used
+
+> *This is pre-litigation information support, not legal advice. Consult a licensed advocate before acting.*
+
+</details>
 
 ---
 
